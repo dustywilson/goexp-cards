@@ -33,6 +33,7 @@ func (dp *DiscardPile) ShuffleInto(d Deck) {
 	// This is so the game can continue with the same number/color/action that it
 	// was at before shuffling the discard pile.
 	// FIXME: the above is only true for times that the deck runs out completely... do we care?
+	// FIXME: UNO-specific details do NOT belong in the "cards" package!
 }
 
 func (dp *DiscardPile) TopCard() Card {
